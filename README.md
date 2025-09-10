@@ -55,16 +55,18 @@
 ```bash
 git clone https://github.com/username/repo.git
 cd repo
-
+```
 2. Установить зависимости:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Для OCR необходимо установить Tesseract OCR и Pillow.
 
 ## Использование
 
 ```bash
 python main.py --file "archive.rar" [--rename]
-
+```
+--file – путь к архиву для анализа.
+--rename – автоматически применять предложенное LLM имя архива. Если ключ не указан, программа спросит пользователя.
