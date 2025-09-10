@@ -74,7 +74,7 @@ cd repo
 ```bash
 pip install -r requirements.txt
 ```
-Для OCR необходимо установить [Tesseract OCR](https://github.com/tesseract-ocr/tesseract/releases) и Pillow. Для DJVU - [DJVULibre](https://sourceforge.net/projects/djvu/files/DjVuLibre_Windows/)
+Для OCR необходимо установить [Tesseract OCR](https://github.com/tesseract-ocr/tesseract/releases) и Pillow. Для DJVU - [DJVULibre](https://sourceforge.net/projects/djvu/files/DjVuLibre_Windows/) и прописать пути к их папкам в path
 
 3. В файле config.py прописать свой API ключ к Gemini
 
