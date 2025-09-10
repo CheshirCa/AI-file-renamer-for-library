@@ -154,7 +154,7 @@ python main.py --file "archive.rar" [--rename]
 
 - После анализа временная директория удаляется.
 
-
+```mermaid
 flowchart TD
     A[Запуск main.py] --> B{Файл существует?}
     B -- Нет --> Z[Завершение с ошибкой]
@@ -198,3 +198,4 @@ flowchart TD
     R --> V
     U --> V
     Z --> V
+```
