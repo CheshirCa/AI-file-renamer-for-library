@@ -79,6 +79,8 @@ pip install -r requirements.txt
 
 3. В файле config.py прописать свой API ключ к Gemini
 
+4. Проверьте, есть ли у вас в стране доступ к Google Gemini - если нет, то придется искать VPN
+
 ## Использование
 
 ```bash
